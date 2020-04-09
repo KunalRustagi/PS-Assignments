@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout'){         
           steps{
               
-              git branch: 'week-1', credentialsId: 'Github', url: 'https://github.com/KunalRustagi/PS-Assignments.git
+              git branch: 'week-1', credentialsId: 'Github', url: 'https://github.com/KunalRustagi/PS-Assignments.git'
 '            }
             }
             stage('Build') {
