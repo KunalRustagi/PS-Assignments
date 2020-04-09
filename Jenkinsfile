@@ -16,7 +16,7 @@ pipeline {
         }
             stage('Build') {
              steps {
-              sh "cd ~/ps-assignments/week-1"
+              sh "cd ~/ps-assignments/week-1/pom.xml"
               sh "mvn clean package"
             }
            }
