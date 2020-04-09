@@ -26,7 +26,7 @@ pipeline {
           steps{
             script {
 
-              sh "java -jar target/assignment-1-1.0.jar > output.out"
+              sh "java -jar /Users/kunal/PS-Assignments/week-1/target/assignment-1-1.0.jar > output.out"
               def output = readFile 'output.out'
               println(output)
 
